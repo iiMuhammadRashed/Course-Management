@@ -49,7 +49,7 @@ This is a RESTful API for managing courses, built with **Node.js**, **Express.js
      ```bash
      pnpm start
      ```
-   - The API will be available at `http://localhost:5000/api/v1`.
+   - The API will be available at `https://course-management-nu.vercel.app/api/v1`.
 
 ## API Endpoints
 
