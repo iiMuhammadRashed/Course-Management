@@ -12,5 +12,7 @@
       "dest": "server.js"
     }
   ],
-  "installCommand": "pnpm install"
+  "installCommand": "pnpm install",
+  "buildCommand": "pnpm run build",
+  "outputDirectory": "."
 }
