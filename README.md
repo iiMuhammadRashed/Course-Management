@@ -53,13 +53,13 @@ This is a RESTful API for managing courses, built with **Node.js**, **Express.js
 
 ## API Endpoints
 
-| Method | Endpoint                | Description                     | Authentication Required |
-|--------|-------------------------|---------------------------------|-------------------------|
-| GET    | `/courses`          | Retrieve all courses (paginated)| No                      |
-| GET    | `/courses/:id`      | Retrieve a single course by ID  | No                      |
-| POST   | `/courses`          | Create a new course            | Yes (Admin)             |
-| PUT    | `/courses/:id`      | Update an existing course      | Yes (Admin)             |
-| DELETE | `/courses/:id`      | Delete a course by ID          | Yes (Admin)             |
+| Method | Endpoint                | Description                     |
+|--------|-------------------------|---------------------------------|
+| GET    | `/courses`          | Retrieve all courses (paginated)|
+| GET    | `/courses/:id`      | Retrieve a single course by ID  |
+| POST   | `/courses`          | Create a new course            |
+| PUT    | `/courses/:id`      | Update an existing course      |
+| DELETE | `/courses/:id`      | Delete a course by ID          |
 
 ### Request/Response Examples
 
