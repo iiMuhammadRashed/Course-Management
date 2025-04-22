@@ -35,6 +35,8 @@ This is a RESTful API for managing courses, built with **Node.js**, **Express.js
      ```env
      MONGO_URI=your_mongodb_connection_string
      PORT=5000
+     NODE_ENV=development
+     CORS_ORIGIN =
      ```
    - Replace `your_mongodb_connection_string` with your MongoDB URI (e.g., from MongoDB Atlas).
 
