@@ -123,7 +123,6 @@ This is a RESTful API for managing courses, built with **Node.js**, **Express.js
 - **Request**:
   - Method: POST
   - URL: `/courses`
-  - Headers: `Content-Type: multipart/form-data`, `Authorization: Bearer <token>`
   - Body (form-data):
     ```
     title: Introduction to Programming
@@ -159,7 +158,6 @@ This is a RESTful API for managing courses, built with **Node.js**, **Express.js
 - **Request**:
   - Method: PUT
   - URL: `/courses/507f1f77bcf86cd799439011`
-  - Headers: `Content-Type: multipart/form-data`, `Authorization: Bearer <token>`
   - Body (form-data):
     ```
     title: Advanced Programming
@@ -189,7 +187,6 @@ This is a RESTful API for managing courses, built with **Node.js**, **Express.js
 - **Request**:
   - Method: DELETE
   - URL: `/courses/507f1f77bcf86cd799439011`
-  - Headers: `Authorization: Bearer <token>`
 - **Response** (200 OK):
   ```json
   {
